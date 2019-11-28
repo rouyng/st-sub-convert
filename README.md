@@ -10,7 +10,9 @@ Based on [this tutorial](https://yarnthen.github.io/yarnthencohosking/how%20to/2
 with some additional features and code changes.
 
 ## Usage
-`python converter.py -i <inputfile> -o <outputfile> -l <Optional: s for simplified input (default), t for traditional input>`
+`python converter.py -i <inputfile> -o <outputfile> -l <input character type>`
+
+Valid options for `-l` are `-l s` or `-l t`. This option specifies whether the input file is in **s**implified or **t**raditional characters.
 
 If the output file already exists, the script will overwrite it.
 
