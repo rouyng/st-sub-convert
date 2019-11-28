@@ -12,7 +12,7 @@ with some additional features and code changes.
 ## Usage
 `python converter.py -i <inputfile> -o <outputfile> -l <input character type>`
 
-Valid options for `-l` are `-l s` or `-l t`. This option specifies whether the input file is in **s**implified or **t**raditional characters.
+Valid options for `-l` are `s` or `t`. This option specifies whether the input file is in **s**implified or **t**raditional characters.
 
 If the output file already exists, the script will overwrite it.
 
